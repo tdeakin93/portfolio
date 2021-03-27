@@ -1,0 +1,24 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    background-color: navy
+    color
+}
+
+/*element styles */
+    body{
+        margin: 0;
+        padding: 24px;}
+        
+    /*review purpose of html inclusion here*/
+    html{background-color: blanchedalmond;}
+    
+
+/* classes */
+.bgc-navy {background-color: navy;}
+        /*review sticky vs fixed*/
+.pos-f [position: fixed;]
+.pos-s {position: sticky;}
+.t-0 [top:0]
+.w-1\/1 {width:100%}
+
+
