@@ -10,8 +10,8 @@ a :hover{
 body{
     background-color:#011854;
     color:blanchedalmond;
-    margin: 0;
-    padding: 2vw;
+    margin: 2%;
+    padding: 2;
 }
  
 h1,
@@ -21,7 +21,13 @@ h3 {
 }
 
 img {
+    background-color: transparent;
+    display: block;
+    max-width: 500px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+;
 }
 
 nav {
@@ -36,7 +42,7 @@ nav ul{
     list-style-type: none;
     display: flex;
     margin: 0;
-    padding: 1%; 
+    padding: 0; 
 }
 
 nav li {
@@ -52,23 +58,46 @@ nav li :hover {
 
 /*id selectors */
 
-/*This is for the Nav Bar */
 
 /* class selectors */
-.bgc-navy {background-color: navy;}
-.display-inline {display:inline}
-        /*review sticky vs fixed*/
-.pos-f {position: fixed;}
-.pos-s {position: sticky;}
-.t-0 {top:0;}
-.w-1\/1 {width:100%;}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-samples {
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 20;
+    max-width: 250px;
+    padding: 10px;
+}
+
+.work-samples-rps {
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0 200;
+    max-width: 500px;
+    padding: 10px;
+}
+.work-samples :hover {
+    background-color: #f3b37e;
+}
+
+
 
 /* large smartphones */
-@media screen and (max-width: 768px) {
-    ul{
-      flex-direction: column;
+@media screen and (max-width: 500px) {
+    section {
+        flex-direction: column;
     }
     li {
         margin: 0;
     }
+    ul{
+        flex-direction: column;
+      }
   }
