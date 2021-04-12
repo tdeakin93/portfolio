@@ -80,7 +80,7 @@ nav li :hover {
     display: flex;
     flex-wrap: wrap;
     flex: 2 0 200;
-    max-width: 500px;
+    max-width: 1000px;
     padding: 10px;
 }
 .work-samples :hover {
