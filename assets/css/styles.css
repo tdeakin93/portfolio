@@ -1,24 +1,52 @@
 *{
-    font-family:Georgia, 'Times New Roman', Times, serif; 
-    background-color: navy
-    color
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*element styles */
-    body{
-        margin: 0;
-        padding: 24px;}
-        
-    /*review purpose of html inclusion here*/
-    html{background-color: blanchedalmond;}
+/*element selectors */
+body{
+    background-color:#011854;
+    color:blanchedalmond;
+    margin: 0;
+    padding: 24px;
+}
+ 
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
     
 
-/* classes */
+/*id selectors */
+
+/*This is for the Nav Bar */
+#navbar{
+    background-color: #A6BBF2;
+    color:#011854;
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+    width:100%;
+}
+
+/* class selectors */
+.background-image {
+        background-image:url(field.jpg)
+        background-color:#FFE38F
+}
 .bgc-navy {background-color: navy;}
+.display-inline {display:inline}
         /*review sticky vs fixed*/
-.pos-f [position: fixed;]
+.pos-f {position: fixed;}
 .pos-s {position: sticky;}
-.t-0 [top:0]
-.w-1\/1 {width:100%}
+.t-0 {top:0;}
+.w-1\/1 {width:100%;}
 
 
+/*review purpose of html inclusion here*/
+html{background-color: blanchedalmond;}
+    
